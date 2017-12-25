@@ -1,0 +1,11 @@
+repeat [ i ] 4:
+fd (100.0 * i)
+left (90)
+fd (100 * i)
+left (90)
+fd (100 * i)
+left (90)
+fd (100 * i)
+end
+
+

@@ -1,0 +1,7 @@
+#!/bin/sh
+#620045470
+
+jflex ./fractal/syntax/FractalLexer.jflex
+cup -parser ./fractal/syntax/FractalParser ./fractal/syntax/FractalParser.cup
+
+

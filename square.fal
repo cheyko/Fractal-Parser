@@ -1,0 +1,11 @@
+render[5](100) fractal (0.5):
+fd (100.0)
+left (90)
+fd (100)
+left (90)
+fd (100)
+left (90)
+fd (100)
+end
+
+

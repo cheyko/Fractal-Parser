@@ -1,0 +1,9 @@
+#!/bin/sh
+#620045470
+
+cd ./fractal/syntax
+jflex FractalLexer.jflex
+cup -parser FractalParser FractalParser.cup
+cd ../..
+javac -classpath ".:/usr/share/java/cup.jar" ./fractal/sys/Repl.java
+java -classpath ".:/usr/share/java/cup.jar" fractal.sys.Repl -- triangularSpiral.fal

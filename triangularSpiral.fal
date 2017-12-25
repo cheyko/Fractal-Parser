@@ -1,0 +1,6 @@
+repeat [ i ] 8:
+left 60 fd (200 - 15 * i )
+right 120 fd (200 - 15 * i - 5)
+right 120 fd (200 - 15 * i - 10)
+right 180
+end
