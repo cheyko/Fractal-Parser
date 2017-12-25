@@ -1,0 +1,7 @@
+#!/bin/sh
+#620045470
+
+jflex FractalLexer.jflex
+cup -parser FractalParser FractalParser.cup
+
+

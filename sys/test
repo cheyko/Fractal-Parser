@@ -1,0 +1,8 @@
+#!/bin/sh
+#620045470
+
+jflex FractalLexer.jflex
+cup -parser FractalParser FractalParser.cup
+javac -classpath "./fractal/syntax:/usr/share/java/cup.jar" Repl.java
+java -classpath "./fractal/syntax:/usr/share/java/cup.jar" Repl
+

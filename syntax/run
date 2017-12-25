@@ -1,0 +1,5 @@
+#!/bin/sh
+#620045470
+
+javac -classpath "./fractal/syntax:/usr/share/java/cup.jar" fractal/sys/Repl.java
+java -classpath "./fractal/syntax:/usr/share/java/cup.jar" fractal/sys/Repl
